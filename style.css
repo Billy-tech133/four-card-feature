@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+body {
+  font-family: 'Poppins', 'sans-serif';
+  background: #fafafa;
+  font-size: 15px;
+  min-height: 100vh;
+  background-color: #fafafa;
+  padding-top: 85px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 30px;
+  }
+}
+
+main {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 200;
+  color: #a3a5ae;
+}
+
+main h1 span {
+  display: block;
+  font-weight: 600;
+  color: #4c4e61;
+}
+
+main p {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #a3a5ae;
+}
+
+main section article:nth-child(1) {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  border-top-color: #45d3d3;
+}
+
+main section article:nth-child(3) {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  border-top-color: #549ef2;
+}
+
+main section article:nth-child(4) {
+  border-top-color: #fcaf4a;
+}
+
+@media (max-width: 768px) {
+  main section article:nth-child(1) {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    border-top-color: #45d3d3;
+  }
+  main section article:nth-child(3) {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    border-top-color: #549ef2;
+  }
+}
+
+main article {
+  height: 250px;
+  width: 25%;
+  text-align: left;
+  padding: 15px;
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  color: #a3a5ae;
+  border-top: 3px solid #ea5353;
+  border-radius: 5px;
+  margin: 15px;
+  -webkit-box-shadow: 0px 10px 20px rgba(163, 165, 174, 0.3);
+          box-shadow: 0px 10px 20px rgba(163, 165, 174, 0.3);
+}
+
+@media (max-width: 728px) {
+  main article {
+    margin: 0px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
+
+main article h2 {
+  color: #4c4e61;
+  margin-bottom: 15px;
+}
+
+main article img {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+/*# sourceMappingURL=style.css.map */
